@@ -7,5 +7,5 @@ echo "users with bash"
 cat /etc/passwd | grep "/bash$" | cut -d: -f1
 
 echo "Ports open"
-sudo netstat -tuln
+netstat -tuln
 
