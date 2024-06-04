@@ -2,7 +2,7 @@ import asyncio
 from aiohttp import web
 import socketio
 
-localhost = "127.0.0.1"
+localhost = "0.0.0.0"
 port = 8080
 
 sio = socketio.AsyncServer()
